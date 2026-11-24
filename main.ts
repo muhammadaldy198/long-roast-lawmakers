@@ -46,3 +46,5 @@ mkdirSync(outDir, { recursive: true });
 assertGate(LINE);
 writeFileSync(`${outDir}/entry.txt`, LINE, "utf8");
 verifyWritten(`${outDir}/entry.txt`, LINE);
+
+// revised: the roast works because the screenshot IS the law — the format failure is the punchline, not the setup.
